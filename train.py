@@ -75,7 +75,7 @@ if __name__ == '__main__':
         save_strategy='epoch',
         load_best_model_at_end=True,
         metric_for_best_model='accuracy',
-        report_to=['tensorboard'],
+        report_to=['wandb'],
         push_to_hub=False,
         hub_strategy='every_save',
         hub_model_id='distillation'
